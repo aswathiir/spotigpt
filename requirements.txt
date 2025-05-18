@@ -1,0 +1,12 @@
+beautifulsoup4 
+request 
+spotipy 
+lyricsgenius 
+python-musicbrainzngs 
+cohere
+dotenv
+services
+typing 
+utils
+chromadb
+flask

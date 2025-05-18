@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpotiGPT | Music AI Assistant</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-container">
+                <div class="logo-icon">♫</div>
+                <h1>SpotiGPT</h1>
+            </div>
+            <p class="subtitle">Your intelligent music assistant</p>
+        </header>
+
+        <main class="chat-container">
+            <div class="message-history" id="messageHistory">
+                <!-- Messages will appear here -->
+            </div>
+
+            <div class="input-container">
+                <div class="input-box">
+                    <textarea id="userInput" placeholder="Ask about music, artists, or songs..." rows="1"></textarea>
+                    <button id="sendButton" class="send-button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <p class="disclaimer">SpotiGPT may produce inaccurate information about artists, songs, or albums.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
