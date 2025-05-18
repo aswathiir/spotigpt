@@ -1,6 +1,6 @@
 # SpotiGPT - Music Knowledge Assistant 🎵
 
-![SpotiGPT Demo](demo.gif) *Example of SpotiGPT in action*
+![SpotiGPT Demo](https://github.com/aswathiir/spotigpt/blob/main/Screenshot%202025-05-18%20144444.png) *Example of SpotiGPT in action*
 
 ## Table of Contents
 - [Overview](#overview)
